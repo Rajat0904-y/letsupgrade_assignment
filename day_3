@@ -1,0 +1,16 @@
+#add two numbers using function:-
+
+class addition():
+    def add(self):
+        a=int(input("enter number: "))
+        b=int(input("enter number: "))
+        return a+b
+
+obj=addition()
+obj.add()
+
+#swap
+def swap(a,b):
+         a,b = b,a
+         print(a,b)       
+swap(6,8)
